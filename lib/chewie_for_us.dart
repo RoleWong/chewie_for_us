@@ -1,4 +1,4 @@
-library chewie;
+library chewie_for_us;
 
 export 'src/chewie_player.dart';
 export 'src/chewie_progress_colors.dart';

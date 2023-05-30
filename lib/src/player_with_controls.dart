@@ -1,6 +1,6 @@
-import 'package:chewie/src/chewie_player.dart';
-import 'package:chewie/src/helpers/adaptive_controls.dart';
-import 'package:chewie/src/notifiers/index.dart';
+import 'package:chewie_for_us/src/chewie_player.dart';
+import 'package:chewie_for_us/src/helpers/adaptive_controls.dart';
+import 'package:chewie_for_us/src/notifiers/index.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';

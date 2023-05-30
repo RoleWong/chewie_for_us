@@ -1,17 +1,16 @@
 import 'dart:async';
 
-import 'package:chewie/src/chewie_progress_colors.dart';
-import 'package:chewie/src/models/option_item.dart';
-import 'package:chewie/src/models/options_translation.dart';
-import 'package:chewie/src/models/subtitle_model.dart';
-import 'package:chewie/src/notifiers/player_notifier.dart';
-import 'package:chewie/src/player_with_controls.dart';
+import 'package:chewie_for_us/src/chewie_progress_colors.dart';
+import 'package:chewie_for_us/src/models/option_item.dart';
+import 'package:chewie_for_us/src/models/options_translation.dart';
+import 'package:chewie_for_us/src/models/subtitle_model.dart';
+import 'package:chewie_for_us/src/notifiers/player_notifier.dart';
+import 'package:chewie_for_us/src/player_with_controls.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
-import 'package:wakelock/wakelock.dart';
-
+import 'package:wakelock_for_us/wakelock_for_us.dart';
 typedef ChewieRoutePageBuilder = Widget Function(
   BuildContext context,
   Animation<double> animation,
@@ -415,7 +414,7 @@ class ChewieController extends ChangeNotifier {
     List<OptionItem> chewieOptions,
   )? optionsBuilder;
 
-  /// Add your own additional options on top of chewie options
+  /// Add your own additional options on top of chewie_for_us options
   final List<OptionItem> Function(BuildContext context)? additionalOptions;
 
   /// Define here your own Widget on how your n'th subtitle will look like
